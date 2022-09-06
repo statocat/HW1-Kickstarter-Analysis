@@ -47,19 +47,19 @@ One limitation of this chart is that by plotting percentages one does not get a 
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+***- What are two conclusions you can draw about the Outcomes based on Launch Date?***
 
     1. Historically, the best time to launch a campaign is early summer i.e. May to June.
 
     2. Historically, the worst month to launcha campaign is December
 
 
-- What can you conclude about the Outcomes based on Goals?
+***- What can you conclude about the Outcomes based on Goals?***
     1. Campaigns with goals of 5000 or less have a higher likelihood of success than campaigns with a goal of 10,000-14,999.
 
     2. There are no successful fundraising campaigns for plays in this data set with a goal between 45,000 and 49,999.
 
-- What are some limitations of this dataset?
+***- What are some limitations of this dataset?***
 
      It would be interesting to know the identity of the campaigners, how many campaigns they have conducted, and the outcomes of each campaign. 
 
@@ -68,7 +68,7 @@ One limitation of this chart is that by plotting percentages one does not get a 
      We do not have information about the distribution of donations in each campaign - did most of the money come from cumulative small donations or a          few large donations. We are only able to compute the average donation - not the median which is a more robust statistic.
 
 
-- What are some other possible tables and/or graphs that we could create?
+***- What are some other possible tables and/or graphs that we could create?***
 
     It would be interesting to know how the length of duration of a campaign impacts its success. To visualize this, we could create a new column in           the data set and utilize the DATEDIF formula with arguments date1, date2, and "m" to compute the duration of each campaign in months. A line chart         plotting the counts of each outcome category vs duration could be used to visualize the data.
 
