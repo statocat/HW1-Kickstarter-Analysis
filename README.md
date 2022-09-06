@@ -18,11 +18,12 @@ In addition to cleaning the data pertaining to the time campaigns took place, da
 
 It was discovered that the time of year a kickstarter campaign is launched is predictive of the likelihood of meeting the campaign goal. To arrive at this conclusion, a pivot table and chart was constructed. The pivot table showed the count of *successful*, *failed*, or *canceled* campaigns organized according to the month in which they were launched. Notably, *live* campaigns were excluded since their outcome cannot yet be determined.  Since the client is particularly interested in theater, a filter was applied so that only data from that category was included in the table. A second filter was applied so that data may be sub-selected by the year in which a campaign was launched if desired.
 
-![/Users/catherinesmith/Desktop/unc_bootcamp/module_1/Challenge/Deliverables/TheaterOutcomesByLaunchDateTable.png]
+![TheaterOutcomesByLaunchDateTable](https://user-images.githubusercontent.com/87917568/188524829-c2e6f140-4a5c-49ac-a0eb-b1352e56b64d.png)
+
 
 This data was visualized in a Pivot Chart constructed of a line graph. A data series for each potential outcome, *successful*, *failed*, or *canceled* is plotted. From this chart, one can see that campaigns launched in the months of January through April and August through December have a minor to moderately higher chance of success than failure. This is good news for the client -- no matter when she launches her campaign, this data suggests the chance of success are better than 50-50. However, it is clear that the best time to launch a fundraising campaign for theater projects is in early summer in the months of May and June when the ratio of successful to failed campaigns is highest. The dead of winter, in October through December would be the worst time to launch a campaign as the ratio of successful to failed campaign declines to nearly 1:1. Finally, the number of canceled campaigns tends to remain consistently low throughout the year.
 
-![/Users/catherinesmith/Desktop/unc_bootcamp/module_1/Challenge/Deliverables/Theater_Outcomes_vs_Launch.png]
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/87917568/188524884-d6ca6a0f-1878-489e-90e8-d47a9759e008.png)
 
 
 ### Analysis of Outcomes Based on Goals
@@ -40,6 +41,9 @@ This data was visualized in a line graph including a data series for each potent
 However, campaigns with fundraising goals less than 5,000 tend to have a much higher chance of success than campaigns with a goal between 10,000 and 15,000. This means that Louise would be wise to consider trimming her budget to around $5000 if possible to increase her odds of completing a successful campaign.
 
 One limitation of this chart is that by plotting percentages one does not get a sense of the relative size of each group of goal amounts. In fact, nearly 85% of all fundraising campaigns for plays have goals of $10,000 or less, putting Louise's fundraising goal in the upper quartile. And while plays with goals between 35,000 and 45,000 also have a high probability of success, less than 1% of campaigns fall in that grouping and further analysis of other factors contributing to their success should be sought after.
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/87917568/188524901-b4e7acbc-b84a-465e-884e-f4907a6d2c4d.png)
+
 
 ## Results
 
@@ -59,7 +63,7 @@ One limitation of this chart is that by plotting percentages one does not get a 
 
 It would be interesting to know the identity of the campaigners, how many campaigns they have conducted, and the outcomes of each campaign. 
 
-It would also be interesting to have marketing if ads or other forms of outreach were utilized for each campaign.  
+It would also be interesting to have marketing data to determine if runnning ads or other forms of outreach were utilized for each campaign.  
 
 We do not have information about the distribution of donations in each campaign - did most of the money come from cumulative small donations or a few large donations. We are only able to compute the average donation - not the median which is a more robust statistic.
 
