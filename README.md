@@ -49,15 +49,15 @@ One limitation of this chart is that by plotting percentages one does not get a 
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-       1. Historically, the best time to launch a campaign is early summer i.e. May to June.
+    1. Historically, the best time to launch a campaign is early summer i.e. May to June.
 
-       2. Historically, the worst month to launcha campaign is December
+    2. Historically, the worst month to launcha campaign is December
 
 
 - What can you conclude about the Outcomes based on Goals?
-     1. Campaigns with goals of 5000 or less have a higher likelihood of success than campaigns with a goal of 10,000-14,999.
+    1. Campaigns with goals of 5000 or less have a higher likelihood of success than campaigns with a goal of 10,000-14,999.
 
-     2. There are no successful fundraising campaigns for plays in this data set with a goal between 45,000 and 49,999.
+    2. There are no successful fundraising campaigns for plays in this data set with a goal between 45,000 and 49,999.
 
 - What are some limitations of this dataset?
 
