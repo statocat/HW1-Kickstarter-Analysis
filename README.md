@@ -49,27 +49,27 @@ One limitation of this chart is that by plotting percentages one does not get a 
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-1. Historically, the best time to launch a campaign is early summer i.e. May to June.
+       1. Historically, the best time to launch a campaign is early summer i.e. May to June.
 
-2. Historically, the worst month to launcha campaign is December
+       2. Historically, the worst month to launcha campaign is December
 
 
 - What can you conclude about the Outcomes based on Goals?
-1. Campaigns with goals of 5000 or less have a higher likelihood of success than campaigns with a goal of 10,000-14,999.
+        1. Campaigns with goals of 5000 or less have a higher likelihood of success than campaigns with a goal of 10,000-14,999.
 
-2. There are no successful fundraising campaigns for plays in this data set with a goal between 45,000 and 49,999.
+        2. There are no successful fundraising campaigns for plays in this data set with a goal between 45,000 and 49,999.
 
 - What are some limitations of this dataset?
 
-It would be interesting to know the identity of the campaigners, how many campaigns they have conducted, and the outcomes of each campaign. 
+        It would be interesting to know the identity of the campaigners, how many campaigns they have conducted, and the outcomes of each campaign. 
 
-It would also be interesting to have marketing data to determine if runnning ads or other forms of outreach were utilized for each campaign.  
+        It would also be interesting to have marketing data to determine if runnning ads or other forms of outreach were utilized for each campaign.  
 
-We do not have information about the distribution of donations in each campaign - did most of the money come from cumulative small donations or a few large donations. We are only able to compute the average donation - not the median which is a more robust statistic.
+        We do not have information about the distribution of donations in each campaign - did most of the money come from cumulative small donations or a           few large donations. We are only able to compute the average donation - not the median which is a more robust statistic.
 
 
 - What are some other possible tables and/or graphs that we could create?
 
-It would be interesting to know how the length of duration of a campaign impacts its success. To visualize this, we could create a new column in the data set and utilize the DATEDIF formula with arguments date1, date2, and "m" to compute the duration of each campaign in months. A line chart plotting the counts of each outcome category vs duration could be used to visualize the data.
+        It would be interesting to know how the length of duration of a campaign impacts its success. To visualize this, we could create a new column in           the data set and utilize the DATEDIF formula with arguments date1, date2, and "m" to compute the duration of each campaign in months. A line chart         plotting the counts of each outcome category vs duration could be used to visualize the data.
 
-It would be interesting to know how the average donation size impacted the success of a campaign. Often kickstarter campaigns include tiered incentives for backers. This information could be utilized to determine how to distribute the tiers. This data could be tabulated and visualized similarly to the second analysis, but instead of grouping by goal amount the data would be grouped by average donation amount.
+        It would be interesting to know how the average donation size impacted the success of a campaign. Often kickstarter campaigns include tiered               incentives for backers. This information could be utilized to determine how to distribute the tiers. This data could be tabulated and visualized           similarly to the second analysis, but instead of grouping by goal amount the data would be grouped by average donation amount.
